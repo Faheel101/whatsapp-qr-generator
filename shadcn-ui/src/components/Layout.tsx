@@ -49,7 +49,7 @@ export function Layout({ children }: LayoutProps) {
 
             <div className="flex items-center space-x-2">
               <Button variant="outline" size="sm" asChild>
-                <a href="https://docs.mgx.dev" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.qr2chat.com/about" target="_blank" rel="noopener noreferrer">
                   <HelpCircle className="h-4 w-4 mr-2" />
                   Help
                 </a>
@@ -112,7 +112,7 @@ export function Layout({ children }: LayoutProps) {
               <h3 className="font-semibold mb-3">Resources</h3>
               <ul className="space-y-2 text-sm">
                 <li><Link to="/about" className="text-muted-foreground hover:text-foreground">About</Link></li>
-                <li><a href="https://docs.mgx.dev" className="text-muted-foreground hover:text-foreground">Help</a></li>
+                <li><a href="https://www.qr2chat.com/about" className="text-muted-foreground hover:text-foreground">Help</a></li>
                 <li><a href="https://wa.me" className="text-muted-foreground hover:text-foreground">WhatsApp</a></li>
               </ul>
             </div>
